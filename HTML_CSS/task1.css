@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+.header
+{
+    background-color:rgb(11,35,66);
+    padding: 10px;
+}
+.headcontent{
+    width: 200px;
+    text-align: center;
+        color:rgb(11,35,66) ;
+    background-color: white;
+    border: 3px solid rgb(202, 63, 29);
+    margin-left:40% ;
+    font-weight: bold;
+    display: block;
+
+}
+/*.head2{
+    overflow:auto;
+    
+}*/
+.head2 div{
+
+    padding: 8px;
+    margin-top: 7px;
+    width: 100%;
+    color: black;
+  }
+.part3 textarea{
+    width: 7rem;
+    height: 1rem;
+}
+
+.h4{
+    border-width: 2rem;
+}
+img{
+    float: left;
+}
+
+
+.footer{
+    background-color: #123456;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.head2{
+    display: flex;
+}
+
+.subscribe{
+
+    border: 3px solid rgb(202, 63, 29);
+}
+
+
+
+@media screen and (max-width: 649px) {
+    .header, .blog,.footer{
+      width: 100%;
+       /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .head2{
+        display: block;
+        width: 100%;
+       /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .blog1{
+        margin-right: 20px;
+        width: 100%;
+        text-align: left;
+       /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .part2{
+    display: none;
+    }
+    .headcontent{
+        text-align: center;
+        margin-right: 20px;
+    }
+  }
